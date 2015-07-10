@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>看比赛-社区</title>
+<style>
+
+.arrow,.arrow em,.arrow ins {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    position: absolute;
+}
+
+.arrow em {
+    border: 8px solid transparent;
+    _border: 8px solid #000;
+    _filter: chroma(color=#000);
+}
+
+.arrow ins {
+    border: 8px solid transparent;
+    _border: 8px solid red;
+    _filter: chroma(color=red);
+}
+
+.arrow-left {
+    right: 0;
+}
+
+.arrow-left em {
+    border-right: none;
+    border-left-color: red;
+}
+
+.arrow-left ins {
+    border-right: none;
+    border-left-color: #000;
+    left: -2px;
+}
+
+.arrow-right {
+    left: -9px;
+}
+
+.arrow-right em {
+    border-left: none;
+    border-right-color: red;
+}
+
+.arrow-right ins {
+    border-left: none;
+    border-right-color: #000;
+    left: 2px;
+}
+
+.arrow-top {
+    bottom: 0;
+}
+
+.arrow-top em {
+    border-bottom: none;
+    border-top-color: red;
+}
+
+.arrow-top ins {
+    border-bottom: none;
+    border-top-color: #000;
+    top: -2px;
+}
+
+.arrow-bottom {
+    top: -8px;
+}
+
+.arrow-bottom em {
+    border-top: none;
+    border-bottom-color: red;
+}
+
+.arrow-bottom ins {
+    border-top: none;
+    border-bottom-color: #000;
+    top: 2px;
+}
+
+.arrow-solid-left {
+    right: 0;
+}
+
+.arrow-solid-left em {
+    border-right: none;
+    border-left-color: red;
+}
+
+.arrow-solid-left ins {
+    border-right: none;
+    border-left-color: #fff;
+    left: -2px;
+}
+
+.arrow-solid-right {
+    left: -9px;
+}
+
+.arrow-solid-right em {
+    border-left: none;
+    border-right-color: red;
+}
+
+.arrow-solid-right ins {
+    border-left: none;
+    border-right-color: #fff;
+    left: 2px;
+}
+
+
+.arrow-solid-top {
+    bottom: 0;
+}
+
+.arrow-solid-top em {
+    border-bottom: none;
+    border-top-color: red;
+}
+
+.arrow-solid-top ins {
+    border-bottom: none;
+    border-top-color: #fff;
+    top: -2px;
+}
+
+.arrow-solid-bottom {
+    top: -8px;
+}
+
+.arrow-solid-bottom em {
+    border-top: none;
+    border-bottom-color: red;
+}
+
+.arrow-solid-bottom ins {
+    border-top: none;
+    border-bottom-color: #fff;
+    top: 2px;
+}
+</style>
+</head>
+<body>
+
+<div class="arrow arrow-top" style="top: 20px;left: 50px;"><em></em></div>
+<div class="arrow arrow-bottom" style="top: 20px;left: 100px;"><em></em></div>
+<div class="arrow arrow-left" style="left: 150px;"><em></em></div>
+<div class="arrow arrow-right" style="left: 200px;"><em></em></div>
+
+<div class="arrow arrow-top" style="top: 20px;left: 250px;"><em></em><ins></ins></div>
+<div class="arrow arrow-bottom" style="top: 20px;left: 300px;"><em></em><ins></ins></div>
+<div class="arrow arrow-left" style="left: 350px;"><em></em><ins></ins></div>
+<div class="arrow arrow-right" style="left: 400px;"><em></em><ins></ins></div>
+
+<div class="arrow arrow-solid-top" style="top:20px;left: 450px;"><em></em><ins></ins></div>
+<div class="arrow arrow-solid-bottom" style="top:20px;left: 500px;"><em></em><ins></ins></div>
+<div class="arrow arrow-solid-left" style="left: 550px;"><em></em><ins></ins></div>
+<div class="arrow arrow-solid-right" style="left: 600px;"><em></em><ins></ins></div>
+</body>
+</html>
