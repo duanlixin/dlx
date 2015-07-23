@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>proxy</title>
+</head>
+<body>
+<script type="text/javascript">
+    document.domain = 'qq.com';
+    // 发送ajax请求的方法
+    function send(url, callback, method, data, encoding, async){
+        var xmlhttp = null;
+        var url = url || null;
+        var method = (method === 'POST') ? 'POST' : 'GET';
+        var callback = callback || function(){};
+        var data = data || null;
+        var encoding = encoding || 'utf-8';
+        var async = (async === false) ? false : true;
+
+        if (url == null) return null;
+
+        // create instance of request
+        if (window.XMLHttpRequest){
+          xmlhttp=new XMLHttpRequest();
+        } else {
+          xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        if (!xmlhttp) return null;
+
+        xmlhttp.onreadystatechange=function(){
+          if (xmlhttp.readyState !=4) return;
+          if (xmlhttp.status <= 200 && xmlhttp.status < 300){
+                callback({
+                    status: 'success',
+                    responseText: xmlhttp.responseText,
+                    responseXML: xmlhttp.responseXML
+                });
+          }
+          else {
+                callback({
+                    status: 'failure'
+                });
+          }
+        }
+
+        xmlhttp.open(method, url, async);
+        xmlhttp.setRequestHeader("Content-type", "text/xml; charset="+encoding);
+        xmlhttp.send(data);
+
+        return xmlhttp;
+    }
+
+    function abort(xmlhttp){
+        if (!xmlhttp) return;
+        xmlhttp.abort();
+    }
+    window.send = send;
+</script>
+</body>
+</html>

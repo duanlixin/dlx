@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        document.domain = 'qq.com';
+    </script>
+</head>
+<body>
+    <iframe id="proxy" src="http://web.sportsshequ.qq.com/sportsshequ/proxy-jquery.html"></iframe>
+    <script>
+
+        proxy.onload = function() {
+            proxy.contentWindow.$.ajax({
+                url: 'http://web.sportsshequ.qq.com/sportsshequ/result.php',
+                type: 'get'
+            }).done(function(data) {
+                console.log(data)
+            });
+        }
+    </script>
+</body>
+</html>
