@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style type="text/css">
+        .tipBox {
+            top: 200px;
+            left: 200px;
+            width: 200px;
+            padding: 10px;
+            background-color: #fffcd7;
+            border: 1px solid #cfc7bc;
+            position: absolute;
+        }
+    </style>
+    <script type="text/javascript" src="./jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="tipArrows.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#test").tipArrows({
+                type:"right",
+                size:{
+                    left:4,
+                    right:4,
+                    height:8
+                },
+                offPos:10,
+                borderColor:'#CFC7BC',
+                borderWidth:1,
+                paddingColor:'#fffcd7'
+            });
+             $("#test").tipArrows({
+                type:"right",
+                size:{
+                    left:4,
+                    right:4,
+                    height:19
+                },
+                offPos:20,
+                borderColor:'#CFC7BC',
+                borderWidth:1,
+                paddingColor:'#fffcd7'
+            });
+            $("#test").tipArrows({
+                type:"up",
+                size:{
+                    left:9,
+                    right:4,
+                    height:4
+                },
+                offPos:40,
+                borderColor:'#CFC7BC',
+                borderWidth:2,
+                paddingColor:'#fffcd7'
+            });
+            $("#test").tipArrows({
+                type:"up",
+                size:{
+                    left:9,
+                    right:17,
+                    height:50
+                },
+                offPos:10,
+                borderColor:'#CFC7BC',
+                borderWidth:6,
+                paddingColor:'#fffcd7'
+            });
+            $("#test").tipArrows({
+                type:"down",
+                size:{
+                    left:9,
+                    right:17,
+                    height:118
+                },
+                offPos:10,
+                borderColor:'green',
+                borderWidth:3,
+                paddingColor:'#fffcd7'
+            });
+            $("#test").tipArrows({
+                type:"left",
+                size:{
+                    left:9,
+                    right:17,
+                    height:118
+                },
+                offPos:10,
+                borderColor:'red',
+                borderWidth:3,
+                paddingColor:'#fffcd7'
+            });
+            $('body').tipArrows({
+                type:"down",
+                size:{
+                    left:8,
+                    right:8,
+                    height:16
+                },
+                offPos:10,
+                borderColor:'green',
+                borderWidth:1,
+                paddingColor:'red',
+                pos:{
+                    left:100,
+                    top:100
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="test" class="tipBox">hello aloha</div>
+</body>
+</html>

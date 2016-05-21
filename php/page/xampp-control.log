@@ -1,0 +1,403 @@
+10:18:20  [main] 	Initializing Control Panel
+10:18:20  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+10:18:20  [main] 	XAMPP Version: 1.8.3
+10:18:20  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+10:18:20  [main] 	Running with Administrator rights - good!
+10:18:20  [main] 	XAMPP Installation Directory: "d:\xampp\"
+10:18:20  [main] 	Checking for prerequisites
+10:18:20  [main] 	All prerequisites found
+10:18:20  [main] 	Initializing Modules
+10:18:20  [main] 	Starting Check-Timer
+10:18:20  [main] 	Control Panel Ready
+10:18:51  [Apache] 	Attempting to start Apache app...
+10:18:51  [Apache] 	Status change detected: running
+19:40:29  [main] 	Deinitializing Modules
+19:40:29  [main] 	Deinitializing Control Panel
+
+16:53:35  [main] 	Initializing Control Panel
+16:53:35  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+16:53:35  [main] 	XAMPP Version: 1.8.3
+16:53:35  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+16:53:35  [main] 	Running with Administrator rights - good!
+16:53:35  [main] 	XAMPP Installation Directory: "d:\xampp\"
+16:53:35  [main] 	Checking for prerequisites
+16:53:37  [main] 	All prerequisites found
+16:53:37  [main] 	Initializing Modules
+16:53:37  [main] 	Starting Check-Timer
+16:53:37  [main] 	Control Panel Ready
+16:53:39  [Apache] 	Attempting to start Apache app...
+16:53:39  [Apache] 	Status change detected: running
+13:20:41  [main] 	Deinitializing Modules
+13:20:41  [main] 	Deinitializing Control Panel
+
+14:46:48  [main] 	Initializing Control Panel
+14:46:48  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+14:46:48  [main] 	XAMPP Version: 1.8.3
+14:46:48  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+14:46:48  [main] 	Running with Administrator rights - good!
+14:46:48  [main] 	XAMPP Installation Directory: "d:\xampp\"
+14:46:48  [main] 	Checking for prerequisites
+14:46:50  [main] 	All prerequisites found
+14:46:50  [main] 	Initializing Modules
+14:46:50  [main] 	Starting Check-Timer
+14:46:50  [main] 	Control Panel Ready
+14:46:53  [Apache] 	Attempting to start Apache app...
+14:46:53  [Apache] 	Status change detected: running
+10:55:25  [Apache] 	Attempting to stop Apache (PID: 5948)
+10:55:25  [Apache] 	Attempting to stop Apache (PID: 8988)
+10:55:25  [Apache] 	Status change detected: stopped
+10:55:26  [Apache] 	Attempting to start Apache app...
+10:55:26  [Apache] 	Status change detected: running
+16:11:11  [Apache] 	Attempting to stop Apache (PID: 9768)
+16:11:11  [Apache] 	Attempting to stop Apache (PID: 11396)
+16:11:11  [Apache] 	Status change detected: stopped
+16:11:12  [Apache] 	Attempting to start Apache app...
+16:11:12  [Apache] 	Status change detected: running
+16:11:44  [Apache] 	Attempting to stop Apache (PID: 12788)
+16:11:44  [Apache] 	Attempting to stop Apache (PID: 8704)
+16:11:44  [Apache] 	Status change detected: stopped
+16:11:45  [Apache] 	Attempting to start Apache app...
+16:11:45  [Apache] 	Status change detected: running
+16:12:12  [Apache] 	Attempting to stop Apache (PID: 9940)
+16:12:12  [Apache] 	Attempting to stop Apache (PID: 8152)
+16:12:13  [Apache] 	Status change detected: stopped
+16:12:17  [Apache] 	Attempting to start Apache app...
+16:12:17  [Apache] 	Status change detected: running
+16:12:39  [Apache] 	Attempting to stop Apache (PID: 7532)
+16:12:39  [Apache] 	Attempting to stop Apache (PID: 13424)
+16:12:39  [Apache] 	Status change detected: stopped
+16:12:40  [Apache] 	Attempting to start Apache app...
+16:12:41  [Apache] 	Status change detected: running
+16:13:49  [Apache] 	Attempting to stop Apache (PID: 7620)
+16:13:49  [Apache] 	Attempting to stop Apache (PID: 8152)
+16:13:49  [Apache] 	Status change detected: stopped
+16:13:51  [Apache] 	Attempting to start Apache app...
+16:13:51  [Apache] 	Status change detected: running
+16:14:26  [Apache] 	Attempting to stop Apache (PID: 12364)
+16:14:26  [Apache] 	Attempting to stop Apache (PID: 7540)
+16:14:26  [Apache] 	Status change detected: stopped
+16:15:49  [Apache] 	Attempting to start Apache app...
+16:15:49  [Apache] 	Status change detected: running
+16:57:47  [Apache] 	Attempting to stop Apache (PID: 11508)
+16:57:47  [Apache] 	Attempting to stop Apache (PID: 5764)
+16:57:47  [Apache] 	Status change detected: stopped
+16:57:48  [main] 	Deinitializing Modules
+16:57:48  [main] 	Deinitializing Control Panel
+
+18:18:05  [main] 	Initializing Control Panel
+18:18:05  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+18:18:05  [main] 	XAMPP Version: 1.8.3
+18:18:05  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+18:18:05  [main] 	Running with Administrator rights - good!
+18:18:05  [main] 	XAMPP Installation Directory: "d:\xampp\"
+18:18:05  [main] 	Checking for prerequisites
+18:18:07  [main] 	All prerequisites found
+18:18:07  [main] 	Initializing Modules
+18:18:07  [main] 	Starting Check-Timer
+18:18:07  [main] 	Control Panel Ready
+18:18:08  [Apache] 	Attempting to start Apache app...
+18:18:09  [Apache] 	Status change detected: running
+10:27:06  [Apache] 	Attempting to stop Apache (PID: 9616)
+10:27:06  [Apache] 	Attempting to stop Apache (PID: 9936)
+10:27:07  [Apache] 	Status change detected: stopped
+10:27:51  [main] 	Deinitializing Modules
+10:27:51  [main] 	Deinitializing Control Panel
+
+10:48:07  [main] 	Initializing Control Panel
+10:48:07  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+10:48:07  [main] 	XAMPP Version: 1.8.3
+10:48:07  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+10:48:07  [main] 	Running with Administrator rights - good!
+10:48:07  [main] 	XAMPP Installation Directory: "d:\xampp\"
+10:48:07  [main] 	Checking for prerequisites
+10:48:09  [main] 	All prerequisites found
+10:48:09  [main] 	Initializing Modules
+10:48:09  [Apache] 	Problem detected!
+10:48:09  [Apache] 	Port 80 in use by "Unable to get info" with PID 7704!
+10:48:09  [Apache] 	Apache WILL NOT start without the configured ports free!
+10:48:09  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+10:48:09  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+10:48:09  [main] 	Starting Check-Timer
+10:48:09  [main] 	Control Panel Ready
+10:48:12  [Apache] 	Problem detected!
+10:48:12  [Apache] 	Port 80 in use by "Unable to get info" with PID 7704!
+10:48:12  [Apache] 	Apache WILL NOT start without the configured ports free!
+10:48:12  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+10:48:12  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+10:48:12  [Apache] 	Attempting to start Apache app...
+10:48:12  [Apache] 	Status change detected: running
+11:36:15  [Apache] 	Attempting to stop Apache (PID: 5328)
+11:36:15  [Apache] 	Attempting to stop Apache (PID: 3592)
+11:36:15  [Apache] 	Status change detected: stopped
+11:16:27  [main] 	Deinitializing Modules
+11:16:27  [main] 	Deinitializing Control Panel
+
+16:35:23  [main] 	Initializing Control Panel
+16:35:23  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+16:35:23  [main] 	XAMPP Version: 1.8.3
+16:35:23  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+16:35:23  [main] 	Running with Administrator rights - good!
+16:35:23  [main] 	XAMPP Installation Directory: "d:\xampp\"
+16:35:23  [main] 	Checking for prerequisites
+16:35:25  [main] 	All prerequisites found
+16:35:25  [main] 	Initializing Modules
+16:35:25  [Apache] 	Problem detected!
+16:35:25  [Apache] 	Port 80 in use by "Unable to get info" with PID 8676!
+16:35:25  [Apache] 	Apache WILL NOT start without the configured ports free!
+16:35:25  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+16:35:25  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+16:35:25  [main] 	Starting Check-Timer
+16:35:25  [main] 	Control Panel Ready
+16:35:32  [Apache] 	Attempting to start Apache app...
+16:35:32  [Apache] 	Status change detected: running
+17:08:03  [Apache] 	Attempting to stop Apache (PID: 3744)
+17:08:03  [Apache] 	Attempting to stop Apache (PID: 1740)
+17:08:03  [Apache] 	Status change detected: stopped
+17:27:21  [Apache] 	Problem detected!
+17:27:21  [Apache] 	Port 80 in use by "Unable to get info" with PID 9624!
+17:27:21  [Apache] 	Apache WILL NOT start without the configured ports free!
+17:27:21  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+17:27:21  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+17:27:21  [Apache] 	Attempting to start Apache app...
+17:27:21  [Apache] 	Status change detected: running
+17:35:40  [Apache] 	Attempting to stop Apache (PID: 9868)
+17:35:40  [Apache] 	Attempting to stop Apache (PID: 8508)
+17:35:41  [Apache] 	Status change detected: stopped
+10:34:55  [Apache] 	Attempting to start Apache app...
+10:34:56  [Apache] 	Status change detected: running
+14:59:41  [Apache] 	Attempting to stop Apache (PID: 10540)
+14:59:41  [Apache] 	Attempting to stop Apache (PID: 9220)
+14:59:41  [Apache] 	Status change detected: stopped
+11:31:09  [main] 	Deinitializing Modules
+11:31:09  [main] 	Deinitializing Control Panel
+
+14:20:37  [main] 	Initializing Control Panel
+14:20:37  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+14:20:37  [main] 	XAMPP Version: 1.8.3
+14:20:37  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+14:20:37  [main] 	Running with Administrator rights - good!
+14:20:37  [main] 	XAMPP Installation Directory: "d:\xampp\"
+14:20:37  [main] 	Checking for prerequisites
+14:20:38  [main] 	All prerequisites found
+14:20:38  [main] 	Initializing Modules
+14:20:38  [main] 	Starting Check-Timer
+14:20:38  [main] 	Control Panel Ready
+14:21:08  [Apache] 	Attempting to start Apache app...
+14:21:08  [Apache] 	Status change detected: running
+14:34:54  [Apache] 	Attempting to stop Apache (PID: 8384)
+14:34:54  [Apache] 	Attempting to stop Apache (PID: 5296)
+14:34:55  [Apache] 	Status change detected: stopped
+14:34:55  [Apache] 	Attempting to start Apache app...
+14:34:56  [Apache] 	Status change detected: running
+14:35:28  [Apache] 	Attempting to stop Apache (PID: 9012)
+14:35:28  [Apache] 	Attempting to stop Apache (PID: 8216)
+14:35:28  [Apache] 	Status change detected: stopped
+14:35:29  [Apache] 	Attempting to start Apache app...
+14:35:29  [Apache] 	Status change detected: running
+14:36:49  [Apache] 	Attempting to stop Apache (PID: 7064)
+14:36:49  [Apache] 	Attempting to stop Apache (PID: 8244)
+14:36:49  [Apache] 	Status change detected: stopped
+14:36:50  [Apache] 	Attempting to start Apache app...
+14:36:50  [Apache] 	Status change detected: running
+14:38:45  [Apache] 	Attempting to stop Apache (PID: 7268)
+14:38:45  [Apache] 	Attempting to stop Apache (PID: 5336)
+14:38:45  [Apache] 	Status change detected: stopped
+14:38:46  [Apache] 	Attempting to start Apache app...
+14:38:46  [Apache] 	Status change detected: running
+14:44:17  [Apache] 	Attempting to stop Apache (PID: 8288)
+14:44:17  [Apache] 	Attempting to stop Apache (PID: 7700)
+14:44:17  [Apache] 	Status change detected: stopped
+14:44:18  [Apache] 	Attempting to start Apache app...
+14:44:18  [Apache] 	Status change detected: running
+14:44:54  [Apache] 	Attempting to stop Apache (PID: 8896)
+14:44:54  [Apache] 	Attempting to stop Apache (PID: 5804)
+14:44:54  [Apache] 	Status change detected: stopped
+14:44:55  [Apache] 	Attempting to start Apache app...
+14:44:55  [Apache] 	Status change detected: running
+14:45:40  [Apache] 	Attempting to stop Apache (PID: 7152)
+14:45:40  [Apache] 	Attempting to stop Apache (PID: 6420)
+14:45:41  [Apache] 	Status change detected: stopped
+14:45:41  [Apache] 	Attempting to start Apache app...
+14:45:41  [Apache] 	Status change detected: running
+15:30:54  [Apache] 	Attempting to stop Apache (PID: 9188)
+15:30:54  [Apache] 	Attempting to stop Apache (PID: 9136)
+15:30:54  [Apache] 	Status change detected: stopped
+16:09:52  [main] 	Deinitializing Modules
+16:09:52  [main] 	Deinitializing Control Panel
+
+16:15:54  [main] 	Initializing Control Panel
+16:15:54  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+16:15:54  [main] 	XAMPP Version: 1.8.3
+16:15:54  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+16:15:54  [main] 	Running with Administrator rights - good!
+16:15:54  [main] 	XAMPP Installation Directory: "d:\xampp\"
+16:15:54  [main] 	Checking for prerequisites
+16:15:54  [main] 	All prerequisites found
+16:15:54  [main] 	Initializing Modules
+16:15:54  [main] 	Starting Check-Timer
+16:15:54  [main] 	Control Panel Ready
+16:15:55  [Apache] 	Attempting to start Apache app...
+16:15:56  [Apache] 	Status change detected: running
+16:18:08  [Apache] 	Attempting to stop Apache (PID: 8600)
+16:18:08  [Apache] 	Attempting to stop Apache (PID: 6148)
+16:18:08  [Apache] 	Status change detected: stopped
+16:18:29  [Apache] 	Attempting to start Apache app...
+16:18:29  [Apache] 	Status change detected: running
+20:10:33  [Apache] 	Attempting to stop Apache (PID: 7792)
+20:10:33  [Apache] 	Attempting to stop Apache (PID: 8408)
+20:10:33  [Apache] 	Status change detected: stopped
+20:10:34  [main] 	Deinitializing Modules
+20:10:34  [main] 	Deinitializing Control Panel
+
+18:39:41  [main] 	Initializing Control Panel
+18:39:41  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+18:39:41  [main] 	XAMPP Version: 1.8.3
+18:39:41  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+18:39:41  [main] 	Running with Administrator rights - good!
+18:39:41  [main] 	XAMPP Installation Directory: "d:\xampp\"
+18:39:41  [main] 	Checking for prerequisites
+18:39:43  [main] 	All prerequisites found
+18:39:43  [main] 	Initializing Modules
+18:39:43  [main] 	Starting Check-Timer
+18:39:43  [main] 	Control Panel Ready
+18:39:45  [Apache] 	Attempting to start Apache app...
+18:39:46  [Apache] 	Status change detected: running
+18:39:51  [Apache] 	Attempting to stop Apache (PID: 8248)
+18:39:51  [Apache] 	Attempting to stop Apache (PID: 7896)
+18:39:52  [Apache] 	Status change detected: stopped
+18:39:53  [Apache] 	Problem detected!
+18:39:53  [Apache] 	Port 80 in use by "Unable to get info" with PID 8588!
+18:39:53  [Apache] 	Apache WILL NOT start without the configured ports free!
+18:39:53  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+18:39:53  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+18:39:53  [Apache] 	Attempting to start Apache app...
+18:39:53  [Apache] 	Status change detected: running
+18:39:55  [main] 	Deinitializing Modules
+18:39:55  [main] 	Deinitializing Control Panel
+
+18:50:53  [main] 	Initializing Control Panel
+18:50:53  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+18:50:53  [main] 	XAMPP Version: 1.8.3
+18:50:53  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+18:50:53  [main] 	Running with Administrator rights - good!
+18:50:53  [main] 	XAMPP Installation Directory: "d:\xampp\"
+18:50:53  [main] 	Checking for prerequisites
+18:50:53  [main] 	All prerequisites found
+18:50:53  [main] 	Initializing Modules
+18:50:53  [Apache] 	Problem detected!
+18:50:53  [Apache] 	Port 80 in use by "Unable to get info" with PID 8588!
+18:50:53  [Apache] 	Apache WILL NOT start without the configured ports free!
+18:50:53  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+18:50:53  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+18:50:53  [Apache] 	XAMPP Apache is already running on port 443
+18:50:53  [main] 	Starting Check-Timer
+18:50:53  [main] 	Control Panel Ready
+18:50:56  [Apache] 	Attempting to stop Apache (PID: 2752)
+18:50:56  [Apache] 	Attempting to stop Apache (PID: 8292)
+18:50:57  [Apache] 	Status change detected: stopped
+18:50:57  [Apache] 	Problem detected!
+18:50:57  [Apache] 	Port 80 in use by "Unable to get info" with PID 8588!
+18:50:57  [Apache] 	Apache WILL NOT start without the configured ports free!
+18:50:57  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+18:50:57  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+18:50:57  [Apache] 	Attempting to start Apache app...
+18:50:58  [Apache] 	Status change detected: running
+18:50:59  [Apache] 	Attempting to stop Apache (PID: 9620)
+18:50:59  [Apache] 	Attempting to stop Apache (PID: 9624)
+18:51:00  [Apache] 	Status change detected: stopped
+18:54:27  [Apache] 	Problem detected!
+18:54:27  [Apache] 	Port 80 in use by "Unable to get info" with PID 8588!
+18:54:27  [Apache] 	Apache WILL NOT start without the configured ports free!
+18:54:27  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+18:54:27  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+18:54:27  [Apache] 	Attempting to start Apache app...
+18:54:27  [Apache] 	Status change detected: running
+18:54:32  [Apache] 	Attempting to stop Apache (PID: 636)
+18:54:32  [Apache] 	Attempting to stop Apache (PID: 2836)
+18:54:32  [Apache] 	Status change detected: stopped
+12:04:54  [main] 	Deinitializing Modules
+12:04:54  [main] 	Deinitializing Control Panel
+
+13:27:35  [main] 	Initializing Control Panel
+13:27:35  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+13:27:35  [main] 	XAMPP Version: 1.8.3
+13:27:35  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+13:27:35  [main] 	Running with Administrator rights - good!
+13:27:35  [main] 	XAMPP Installation Directory: "d:\xampp\"
+13:27:35  [main] 	Checking for prerequisites
+13:27:37  [main] 	All prerequisites found
+13:27:37  [main] 	Initializing Modules
+13:27:37  [Apache] 	Problem detected!
+13:27:37  [Apache] 	Port 80 in use by "Unable to get info" with PID 8924!
+13:27:37  [Apache] 	Apache WILL NOT start without the configured ports free!
+13:27:37  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+13:27:37  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+13:27:37  [Tomcat] 	Problem detected!
+13:27:37  [Tomcat] 	Port 8080 in use by "Unable to open process"!
+13:27:37  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+13:27:37  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+13:27:37  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+13:27:37  [main] 	Starting Check-Timer
+13:27:37  [main] 	Control Panel Ready
+13:27:48  [Apache] 	Problem detected!
+13:27:48  [Apache] 	Port 80 in use by "Unable to get info" with PID 8924!
+13:27:48  [Apache] 	Apache WILL NOT start without the configured ports free!
+13:27:48  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+13:27:48  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+13:27:48  [Apache] 	Attempting to start Apache app...
+13:27:48  [Apache] 	Status change detected: running
+13:29:27  [Apache] 	Attempting to stop Apache (PID: 1152)
+13:29:27  [Apache] 	Attempting to stop Apache (PID: 6908)
+13:29:27  [Apache] 	Status change detected: stopped
+13:29:28  [Apache] 	Attempting to start Apache app...
+13:29:28  [Apache] 	Status change detected: running
+13:30:47  [Apache] 	Attempting to stop Apache (PID: 9716)
+13:30:47  [Apache] 	Attempting to stop Apache (PID: 6588)
+13:30:47  [Apache] 	Status change detected: stopped
+13:30:53  [Apache] 	Problem detected!
+13:30:53  [Apache] 	Port 80 in use by "Unable to get info" with PID 9116!
+13:30:53  [Apache] 	Apache WILL NOT start without the configured ports free!
+13:30:53  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+13:30:53  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+13:30:53  [Apache] 	Attempting to start Apache app...
+13:30:53  [Apache] 	Status change detected: running
+10:58:58  [Apache] 	Status change detected: stopped
+10:58:58  [Apache] 	Error: Apache shutdown unexpectedly.
+10:58:58  [Apache] 	This may be due to a blocked port, missing dependencies, 
+10:58:58  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+10:58:58  [Apache] 	Press the Logs button to view error logs and check
+10:58:58  [Apache] 	the Windows Event Viewer for more clues
+10:58:58  [Apache] 	If you need more help, copy and post this
+10:58:58  [Apache] 	entire log window on the forums
+10:59:00  [main] 	Deinitializing Modules
+10:59:00  [main] 	Deinitializing Control Panel
+
+20:15:32  [main] 	Initializing Control Panel
+20:15:32  [main] 	Windows Version: Windows 7 Professional SP1 64-bit
+20:15:32  [main] 	XAMPP Version: 1.8.3
+20:15:32  [main] 	Control Panel Version: 3.2.1  [ Compiled: May 7th 2013 ]
+20:15:32  [main] 	Running with Administrator rights - good!
+20:15:32  [main] 	XAMPP Installation Directory: "d:\xampp\"
+20:15:32  [main] 	Checking for prerequisites
+20:15:34  [main] 	All prerequisites found
+20:15:34  [main] 	Initializing Modules
+20:15:34  [Apache] 	Problem detected!
+20:15:34  [Apache] 	Port 80 in use by "Unable to get info" with PID 7196!
+20:15:34  [Apache] 	Apache WILL NOT start without the configured ports free!
+20:15:34  [Apache] 	You need to uninstall/disable/reconfigure the blocking application
+20:15:34  [Apache] 	or reconfigure Apache and the Control Panel to listen on a different port
+20:15:34  [Tomcat] 	Problem detected!
+20:15:34  [Tomcat] 	Port 8080 in use by "Unable to open process"!
+20:15:34  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+20:15:34  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+20:15:34  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+20:15:34  [main] 	Starting Check-Timer
+20:15:34  [main] 	Control Panel Ready
+20:16:04  [Apache] 	Attempting to start Apache app...
+20:16:04  [Apache] 	Status change detected: running
+16:22:51  [Apache] 	Attempting to stop Apache (PID: 9444)
+16:22:51  [Apache] 	Attempting to stop Apache (PID: 388)
+16:22:52  [Apache] 	Status change detected: stopped
+10:54:38  [main] 	Deinitializing Modules
+10:54:38  [main] 	Deinitializing Control Panel
+

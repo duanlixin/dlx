@@ -1,0 +1,54 @@
+.header {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+.header-logo {
+	float: left;
+}
+.mini-menu li {
+	float: right;
+	margin-right: 10px;
+}
+.menu {
+	position: absolute;
+	top: 50px;
+    left: 300px;
+}
+
+.main {
+	width: 1000px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+.nav {
+    height: 100%;
+    width: 190px;
+    float: left;
+    margin-right: 40px;
+    overflow: hidden;
+    min-height: 300px;
+	border: 1px solid blue;
+}
+
+.container {
+	border: 1px solid red;
+	height: 100%;
+    overflow: hidden;
+    width: 700px;
+}
+
+.container .content {
+	display: none
+}
+
+.container .cur {
+	display: block
+}
+
+
+.footer {
+	text-align: center;
+}

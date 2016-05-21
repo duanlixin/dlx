@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>slider</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- jQuery library (served from Google) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="./dist/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="./dist/jquery.bxslider.css" rel="stylesheet" />
+</head>
+<body class="vip-intro" data-pageid="10">
+<ul class="bxslider">
+  <li><img src="./images/hill_road.jpg" /></li>
+  <li><img src="./images/tree_root.jpg" /></li>
+  <li><img src="./images/trees.jpg" /></li>
+</ul>
+
+<ul class="bxslider1">
+  <li><img src="./images/hill_road.jpg" /></li>
+  <li><img src="./images/tree_root.jpg" /></li>
+  <li><img src="./images/trees.jpg" /></li>
+</ul>
+
+<div class="slider1">
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar5"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar6"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar7"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar8"></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar9"></div>
+</div>
+<script charset="utf-8" type="text/javascript">
+    $(document).ready(function(){
+      $('.bxslider').bxSlider();
+      $('.bxslider1').bxSlider({
+        auto: true,
+        speed: 3000
+      });
+        $('.slider1').bxSlider({
+         minSlides: 4,
+          maxSlides: 4,
+          slideWidth: 170,
+          slideMargin: 10,
+          ticker: true,
+          speed: 26000
+          });
+    });
+
+</script>
+</body>
+</html>
