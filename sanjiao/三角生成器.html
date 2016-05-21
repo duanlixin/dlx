@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)http://maishi.sinaapp.com/android/html/android/%E4%B8%89%E8%A7%92%E7%94%9F%E6%88%90%E5%99%A8.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>三角生成器</title>
+<link rel="stylesheet" type="text/css" href="./三角生成器_files/wheat.css">
+<script src="./三角生成器_files/wheat.js" type="text/javascript"></script>
+<style type="text/css">
+/*arrow*/
+.arrow-generator-box{margin:100px 300px}
+.arrow-generator-box .input-txt{padding:2px;height:18px;line-height:18px;width:60px;box-shadow:2px 2px 2px #ccc inset}
+.arrow-generator-box .item-color .input-txt{width:60px}
+.arrow-generator-box .item-con .style{padding:0 0 0 5px;color:#666}
+.arrow-generator-box .item-con .err-tip{color:red;margin:0 0 0 10px}
+.arrow-style{background:#f1f1f1;width:490px}
+.arrow-preview{float:left;width:114px;height:136px;margin:0 20px 0 0;position:relative;text-align:center;vertical-align:middle;*font-size:118px}
+.arrow-preview:after{content:"";display:inline-block;width:0;font-size:0;height:100%;vertical-align:middle}
+.arrow-preview .arrow{display:inline-block;width:0;height:0;font-size:0;line-height:0;vertical-align:middle}
+.arrow-style-list{padding:15px}
+.arrow-style-list .item{padding:0 0 10px 0}
+.arrow-style-list .item-act{padding:5px 0 0 0}
+.arrow-style-list .item-name{float:left;width:60px;height:22px;line-height:22px}
+.arrow-style-list .item-name label{color:#666}
+.arrow-style-list .item-act .item-name label{line-height:999em;overflow:hidden}
+.arrow-style-list .item-con{float:left;width:400px}
+.arrow-direction-list li{float:left;cursor:pointer;margin:0 15px 0 0}
+.arrow-direction-list li input{vertical-align:-3px;margin:0 3px 0 0 }
+.arrow-style{float:left}
+.btn-generate{width:100px;height:30px;color:#000}
+.arrow-generate{padding:0 0 10px 0}
+.arrow-textarea{padding:5px;color:#666;border:1px solid #f0f0f0;resize:none;width:476px;height:180px;font:13px/22px tahoma;}
+.arrow-code{margin:0 0 0 136px;width:490px}
+.arrow-code h2{color:#999;padding:0 0 5px 0;float:left;}
+.arrow-code .compress-code{float:right;color:#666;text-decoration:underline}
+
+/*wheat.css*/
+#wheat-mask{width:100%;height:100%;position:absolute;left:0;top:0;background:#000;opacity:0.7;filter:alpha(opacity=70)}
+
+/* reset  */
+body,input,button,select{font:12px/1.5 Arial, Helvetica, sans-serif;}
+html,body,p,ul,li,h1,h2,h3,h4,h5,h6,input,button,legend{padding:0;margin:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+ul,ol{list-style:none outside none}
+img{border:0 none}
+button{color:red}
+
+/*clearfix*/
+.clearfix:after{content:"";display:block;clear:both}
+.clearfix{*zoom:1}
+
+/*public*/
+.w-close{display:block;width:30px;height:30px;text-align:center;line-height:30px;background:#ccc;color:#333;border:1px solid #ccc}
+
+
+/*layer-mod*/
+.layer-mod{width:400px;height:400px;overflow:hidden;position:absolute;left:50%;top:50%;margin:-200px 0 0 -200px;border:1px solid #000;border-radius:8px;box-shadow:2px 2px 2px rgba(0,0,0,0.4);background:#fff;}
+.layer-mod-hd{position:relative;height:40px;line-height:40px;background:#333;color:#fff;cursor:move}
+.layer-mod-hd .w-close{position:absolute;right:10px;top:5px;}
+
+/*slide-list*/
+.slide-hd .slide-title li{float:left;width:50px;text-align:center;height:22px;line-height:22px;cursor:pointer;margin:0 10px 0 0}
+.slide-hd .slide-title li.current{background:#ccc}
+.slide-bd{border:1px solid #000}
+
+/**/
+.trigger-btn{width:100px;border:1px solid red;cursor:pointer}
+.trigger-con{width:300px;height:300px;border:1px solid #ccc}
+</style>
+</head>
+<body>
+<div class="arrow-generator-box">
+	<!--选择-->
+	<div class="arrow-generate clearfix">
+		<div class="arrow-preview">
+			<span class="arrow" id="arrow" style="border-width: 10px; border-top-color: transparent; border-right-color: transparent; border-left-color: transparent; border-style: dashed dashed solid; "></span>
+		</div>
+		<div class="arrow-style">
+			<ul class="arrow-style-list">
+				<li class="item clearfix">
+					<!--方向-->
+					<div class="item-name">
+						<label>方向：<label>
+					</label></label></div>
+					<div class="item-con">
+						<ul id="arrowDirection" class="arrow-direction-list clearfix">
+							<li><label for="arrowUp"><input id="arrowUp" type="radio" name="arrowDir" value="arrowUp" checked="">上</label></li>
+							<li><label for="arrowRight"><input id="arrowRight" type="radio" name="arrowDir" value="arrowRight">右</label></li>
+							<li><label for="arrowDown"><input id="arrowDown" type="radio" name="arrowDir" value="arrowDown">下</label></li>
+							<li><label for="arrowLeft"><input id="arrowLeft" type="radio" name="arrowDir" value="arrowLeft">左</label></li>
+						</ul>
+					</div>
+					<!--/方向-->
+				</li>
+				<li class="item item-size clearfix">
+					<!--大小-->
+					<div class="item-name">
+						<label>大小：<label>
+					</label></label></div>
+					<div class="item-con">
+						<input id="arrowSize" type="text" value="" class="input-txt">
+						<span class="style">px</span>
+						<span class="err-tip" id="errInputNumber" style="display:none">要输入纯数字哦:)</span>
+					</div>
+					<!--/大小-->
+				</li>
+				<li class="item item-color clearfix">
+					<!--颜色-->
+					<div class="item-name">
+						<label>颜色：<label>
+					</label></label></div>
+					<div class="item-con">
+						<input id="arrowColor" type="text" class="input-txt">
+					</div>
+					<!--/颜色-->
+				</li>
+				<li class="item item-act clearfix" style="display:none">
+					<!--按钮-->
+					<div class="item-name">
+						<label>操作<label>
+					</label></label></div>
+					<div class="item-con">
+						<button id="btnGenerate" class="btn-generate" type="button">生成三角代码</button>
+					</div>
+					<!--/按钮-->
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--/选择-->
+	<!--代码-->
+	<div class="arrow-code">
+		<div class="hd clearfix">
+			<h2>生成的代码:</h2>
+			<a href="javascript:void(0)" id="compressCode" class="compress-code" title="压缩代码">压缩代码</a>
+		</div>
+		<div class="bd">
+			<textarea id="arrowCode" class="arrow-textarea"></textarea>
+		<bd>
+	<div>
+	<!--/代码-->
+	<script type="text/javascript">
+	//s
+	/*
+wheat.js
+author:麦时（timezhong）
+latest update time:20120507
+*/
+
+/*
+I:跨浏览器事件对象定义:
+element 发生事件的元素
+type 事件类型
+handler 发生的事件
+*/
+
+
+var	eventUtil={
+	//增加事件
+	addHandler:function(element,type,handler){
+		if(element.addEventListener){
+			element.addEventListener(type,handler,false);
+		}else if(element.attachEvent){
+			element.attachEvent ("on"+type,handler);
+		}else{
+			element["on"+type]=handler;
+		}
+		
+	},
+	
+	//判断event
+	getEvent:function(event){
+		return event ? event : window.event;
+	},
+	
+	//获得事件目标
+	getEventTarget:function(event){
+		return event.target||event.srcTarget;
+	},
+	
+	/*获得相关元素
+	getRelatedTarget:function(event){
+		if(event.relatedTarget){
+			return event.relatedTarget;
+		
+		}else if(event.fromElement){
+			return event.fromElement;
+		}else if(event.toElement){
+			return event.toElement;
+		}else{
+			return null;
+		}
+	
+	},
+	*/
+	//移除事件
+	removeHandler:function(element,type,handler){
+		if(element.removeEventListener){
+			element.removeEventListener(type,handler,false);
+		}
+		else if(element.detachEvent){
+			element.detachEvent("on"+type,handler);
+		}
+		else{
+			element["on"+type]=handler;
+		}
+	}
+	
+};
+
+
+
+	
+		var btnGenerate=document.getElementById("btnGenerate"),
+			arrowColor=document.getElementById("arrowColor"),
+			arrowSize=document.getElementById("arrowSize"),
+			arrowCode=document.getElementById("arrowCode"),
+			arrow=document.getElementById("arrow"),
+			arrowDirection=document.getElementById("arrowDirection"),
+			arrowDir=document.getElementsByName("arrowDir"),
+			compressCode=document.getElementById("compressCode"),
+			errInputNumber=document.getElementById("errInputNumber"),
+			arrowDirectionList=arrowDirection.getElementsByTagName("li");
+		
+		
+		//控制箭头方向
+		for( var i=0; i<arrowDirectionList.length; i++){
+				arrowDirectionList[i].onclick=function(){
+					outPutCode();
+				}
+			
+		}
+		
+		//控制箭头大小
+		function changeArrowSize(){
+
+			errInputNumber.style.display=isNaN(arrowSize.value)?'':'none';
+			
+			arrow.style.borderWidth=Number(arrowSize.value)+"px";
+			outPutCode();
+		}
+		
+		eventUtil.addHandler(arrowSize,"input",changeArrowSize);
+		eventUtil.addHandler(arrowSize,"propertychange",changeArrowSize);
+		
+		
+		//控制箭头颜色
+		
+		eventUtil.addHandler(arrowColor,"input",outPutCode);
+		eventUtil.addHandler(arrowColor,"propertychange",outPutCode);
+		
+		//压缩代码
+		compressCode.onclick=function(){
+			if(compressCode.innerText=="压缩代码"){
+				arrowCode.value=arrowCode.value.replace(/(\s*|\r\n*)/ig,'');
+				compressCode.innerText="撤销";
+			}else{
+				compressCode.innerText="压缩代码"
+				outPutCode();
+			}
+		}
+		
+		
+		//生成代码
+		function outPutCode(){
+			arrow.style.borderColor="transparent";
+			if(arrowDir[0].checked){
+				arrow.style.borderBottomColor=arrowColor.value;
+				arrow.style.borderStyle="dashed dashed  solid  dashed";
+			
+			}else if(arrowDir[1].checked){
+
+				arrow.style.borderLeftColor=arrowColor.value;
+				arrow.style.borderStyle="dashed  dashed  dashed solid";
+				
+
+			}else if(arrowDir[2].checked){
+	
+				arrow.style.borderTopColor=arrowColor.value;
+				arrow.style.borderStyle="solid dashed  dashed  dashed";
+				
+			}else if(arrowDir[3].checked){
+				arrow.style.borderRightColor=arrowColor.value;
+				arrow.style.borderStyle="dashed solid  dashed  dashed";
+				
+			}
+			arrowCode.value="display:inline-block;"+"\n"+"width:0;"+"\n"+"height:0;"+"\n"+"font-size:0;"+"\n"+"line-height:0;"+"\n"+"border-width:"+arrow.style.borderWidth+";"+"\n"+"border-color:"+arrow.style.borderColor+";"+"\n"+"border-style:"+arrow.style.borderStyle+";";
+			
+			
+		}
+		
+		outPutCode();
+		
+
+		
+
+		
+	</script>
+	
+</div>
+
+</bd></div></div></div></body></html>
