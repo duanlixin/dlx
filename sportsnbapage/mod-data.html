@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>数据专区</title>
+<style type="text/css">
+/* -------- public ------- */
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, table, th, tr, td, p, select, input, img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+body {
+    font: 14px/1.5 "Microsoft Yahei", "宋体", "Arial Narrow", HELVETICA;
+    color: #454545;
+}
+
+a {
+    color: #454545;
+    text-decoration: none;
+}
+
+/* -------- mod ------- */
+#mod-data {
+    width: 380px;
+    height: 701px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px #A6A6A6;
+}
+
+#mod-data .title {
+    padding-left: 10px;
+    width: 370px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 18px;
+    background: #1E518C;
+}
+
+#mod-data .title a {
+    color: #FFFFFF;
+}
+
+#mod-data .tab {
+    width: 378px;
+    height: 38px;
+    border: 1px solid #7A7A7A;
+    border-top: 1px solid #BE9D53;
+    background: #57595B;
+}
+
+#mod-data .tab li {
+    width: 75px;
+    height: 38px;
+    line-height: 38px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    border-right: 1px solid #7A7A7A;
+    cursor: pointer;
+    float: left;
+}
+
+#mod-data .tab li.cur {
+    background: #454545;
+}
+
+#mod-data .tab li.nb {
+    width: 74px;
+    border-right: 0px;
+}
+
+#mod-data .wrap {
+    width: 380px;
+    height: 620px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#mod-data .wrap .mod {
+    width: 380px;
+    height: 620px;
+}
+
+#mod-data .wrap .n {
+    display: none;
+}
+
+#mod-data .wrap .mod .text {
+    width: 378px;
+    height: 40px;
+    line-height: 40px;
+    color: #2A6CB6;
+    font-size: 18px;
+    text-align: center;
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}
+
+#mod-data .wrap .mod .list {
+    width: 379px;
+    height: 270px;
+    border-right: 1px solid #E0E0E0;
+}
+
+#mod-data .wrap .mod .list table {
+    width: 100%;
+    height: 270px;
+    font-size: 16px;
+    text-align: center;
+    border: 0px;
+}
+
+#mod-data .wrap .mod .list a {
+    color: #454545;
+    text-decoration: none;
+}
+
+#mod-data .wrap .mod .list .b {
+    height: 36px;
+    border-left: 1px solid #E0E0E0;
+}
+
+#mod-data .wrap .mod .list p {
+    margin: 0px auto 5px auto;
+    width: 68px;
+    height: 74px;
+    border: 1px solid #E8EDF2;
+    display: none;
+}
+
+#mod-data .wrap .mod .list .cur {
+    background: #F4FAFF;
+}
+
+#mod-data .wrap .mod .list .cur a {
+    color: #2A6CB6;
+}
+
+#mod-data .wrap .mod .list .cur a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#mod-data .wrap .mod .list .cur .b {
+    height: 126px;
+    border-left: 1px solid #2A6CB6;
+}
+
+#mod-data .wrap .mod .list .cur p {
+    display: block;
+}
+</style>
+</head>
+
+<body>
+
+<div id="mod-data">
+    <div class="title"><a href="#">数据专区</a></div>
+    <div class="tab">
+        <li class="cur">得分</li>
+        <li>篮板</li>
+        <li>助攻</li>
+        <li>盖帽</li>
+        <li class="nb">抢断</li>
+    </div>
+    <div class="wrap">
+        <div class="mod">
+            <div class="text">今日排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="text">赛季排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="mod n">
+            <div class="text">今日排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="text">赛季排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="mod n">
+            <div class="text">今日排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="text">赛季排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="mod n">
+            <div class="text">今日排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="text">赛季排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="mod n">
+            <div class="text">今日排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="text">赛季排名</div>
+            <div class="list">
+                <table cellpadding="0" cellspacing="0">
+                    <tr class="cur">
+                        <td width="12%" class="b">1</td>
+                        <td width="38%"><p><img src="images/data_img.png"/></p><a href="#">格里芬</a></td>
+                        <td width="22%">40</td>
+                        <td width="28%">快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">2</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">乔治-希尔</a></td>
+                        <td>28</td>
+                        <td>步行者</td>
+                    </tr>
+                    <tr>
+                        <td class="b">3</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">库里</a></td>
+                        <td>27</td>
+                        <td>勇士</td>
+                    </tr>
+                    <tr>
+                        <td class="b">4</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">保罗</a></td>
+                        <td>27</td>
+                        <td>快船</td>
+                    </tr>
+                    <tr>
+                        <td class="b">5</td>
+                        <td><p><img src="images/data_img.png"/></p><a href="#">汤普森</a></td>
+                        <td>25</td>
+                        <td>勇士</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

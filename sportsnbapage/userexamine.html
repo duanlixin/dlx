@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>调查</title>
+    <style type="text/css">
+        body, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, dd, table, th, tr, td, p, select, input, img {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            border: none;
+        }
+
+        img {
+            border: none;
+        }
+
+        body {
+            font: 14px/1.5 "Microsoft Yahei", "宋体", "Arial Narrow", HELVETICA;
+            color: #454545;
+            background: #fff;
+        }
+
+        a {
+            color: #454545;
+            text-decoration: none;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .examine-layout {
+            width: 380px;
+            height: 310px;
+        }
+
+        .examine-layout h2 {
+            height: 39px;
+            line-height: 39px;
+            background: #1e518c;
+            border-bottom: 1px solid #be9d53;
+            font-size: 18px;
+            font-weight: normal;
+            padding: 0 12px;
+        }
+
+        .examine-layout h2 a {
+            color: #fff;
+        }
+
+        #examine .examine {
+            height: 230px;
+            box-shadow: 1px 2px 6px #e7e7e7;
+            -moz-box-shadow: 1px 2px 6px #e7e7e7;
+            -ms-box-shadow: 1px 2px 6px #e7e7e7;
+            -webkit-box-shadow: 1px 2px 6px #e7e7e7;
+            padding: 20px 20px 20px 10px;
+            border: 1px solid #e8e8e8;
+        }
+
+        #examine .examine .title {
+            font-size: 16px;
+        }
+
+        #examine .examine .title span {
+            display: inline-block;
+            width: 28px;
+            vertical-align: top;
+        }
+
+        #examine .examine .title em {
+            font-style: normal;
+            display: inline-block;
+            width: 320px;
+        }
+
+        #examine .examine-con {
+            overflow: hidden;
+            padding: 14px 0 4px 28px;
+        }
+
+        #examine .examine-con li {
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        #examine .examine-con li input {
+            margin: 3px 6px 0 0;
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+        }
+
+        #examine .btn-group {
+            padding-left: 28px;
+        }
+
+        #examine .btn-group a {
+            display: inline-block;
+            width: 148px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            font-size: 16px;
+            box-shadow: 1px 4px 6px #e7e7e7;
+        }
+
+        #examine .btn-group a.sub-btn {
+            border: 1px solid #4ac5ff;
+            background: url("images/btn-bg.png") repeat-x left top;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        #examine .btn-group a.look-btn {
+            border: 1px solid #c9c9c9;
+            background: url("images/btn2-bg.png") repeat-x left top;
+            color: #545454;
+        }
+
+        #examine .btn-group a.sub-btn:hover {
+            background: url("images/btn-hover-bg.png") repeat-x left top;
+        }
+
+        #examine .btn-group a.look-btn:hover {
+            background: url("images/btn-hover2-bg.png") repeat-x left top;
+        }
+    </style>
+</head>
+<body>
+<div id="examine" class="examine-layout">
+    <h2><a href="javascript:;">调查</a></h2>
+
+    <div class="examine">
+        <p class="title"><span>&gt;&gt;</span><em>东部季后赛角逐竞争激烈，你觉得哪2支队伍能晋级？</em></p>
+        <ul class="examine-con">
+            <li><label class="fl"><input type="checkbox" class="fl"/>绿军(36胜42负暂第7)</label></li>
+            <li><label class="fl"><input type="checkbox" checked="checked" class="fl"/>篮网(36胜42负暂第8)</label></li>
+            <li><label class="fl"><input type="checkbox" class="fl"/>步行者(35胜43负暂第9)</label></li>
+            <li><label class="fl"><input type="checkbox" checked="checked" class="fl"/>热火(35胜43负暂第10)</label></li>
+        </ul>
+        <p class="btn-group">
+            <a href="javascript:;" class="sub-btn icon"/>提交</a>
+            <a href="javascript:;" class="look-btn icon"/>查看</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
