@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta content="text/html; charset=gb2312" http-equiv="Content-Type">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>体育社区</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: '微软雅黑';
+        }
+
+        .fansContent {
+            width: 320px;
+            height: 343px;
+            background: url(http://img1.gtimg.com/sports/pics/hv1/9/131/1912/124361214.png) no-repeat;
+            overflow: hidden;
+            color: #fff;
+        }
+
+        .fansContent a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .fansContent .headPost {
+            height: 85px;
+            border-top: 1px solid #018DEF;
+            border-bottom: 1px solid #018DEF;
+            background: url(http://img1.gtimg.com/sports/pics/hv1/11/131/1912/124361216.png);
+            padding: 8px 0 9px 10px;
+        }
+
+        .fansContent .headPost img {
+            float: left;
+            width: 114px;
+            height: 85px;
+            border: none;
+        }
+
+        .fansContent .postContent {
+            height: 85px;
+            overflow: hidden;
+            width: 164px;
+            padding: 0 15px;
+        }
+
+        .fansContent .postContent .postTitle {
+            font-size: 14px;
+            line-height: 20px;
+            padding: 12px 0 10px;
+            cursor: pointer;
+        }
+
+        .fansContent .postContent .postDetail,
+        .fansContent .itemContent div,
+        .fansContent .itemContent h2 {
+            cursor: pointer;
+            width: 164px;
+            font-size: 12px;
+            color: #c4c4c4;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .fansContent .itemContent div,
+        .fansContent .itemContent h2 {
+            width: 228px;
+        }
+
+        .fansContent .fansItem {
+            height: 58px;
+            border-bottom: 1px solid #022848;
+        }
+
+        .fansContent .fansItem + .fansItem {
+            border-top: 1px solid #01437D;
+        }
+
+        .fansContent .itemTitle {
+            width: 50px;
+            height: 58px;
+            line-height: 58px;
+            text-align: center;
+            font-size: 12px;
+            background: #013665;
+            border-left: 2px solid #D33557;
+            float: left;
+        }
+
+        .fansContent .itemContent {
+            margin-left: 52px;
+            height: 48px;
+            padding: 10px 18px 0;
+            position: relative;
+        }
+
+        .fansContent .itemContent h2 {
+            font-size: 13px;
+            font-weight: normal;
+            margin-bottom: 6px;
+            color: #fff;
+        }
+
+        .fansContent .hotCircle .itemTitle {
+            line-height: 1.3em;
+            padding: 14px 0;
+            height: auto;
+        }
+
+        .fansContent .current {
+            background: rgba(3, 71, 128, 0.7);
+            filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#B2034780', endColorstr='#B2034780');
+        }
+
+        :root .fansContent .current {
+            filter: none;
+        }
+
+        .fansContent .current .itemTitle {
+            border-left-color: #FF5579;
+            background: #034982;
+        }
+
+        .fansContent .hotCircle .itemContent .teamIcon {
+            display: block;
+            float: left;
+            width: 30px;
+            height: 30px;
+            margin: 4px 18px 0 0;
+        }
+
+        .fansContent .hotCircle .itemContent img {
+            width: 30px;
+            height: 30px;
+            border: none;
+            border-radius: 50%;
+        }
+
+        .fansContent .moreCircle {
+            position: absolute;
+            font-size: 12px;
+            background: url(http://img1.gtimg.com/sports/pics/hv1/10/131/1912/124361215.png) no-repeat 100% 50%;
+            _background: url(http://mat1.gtimg.com/sports/kbsweb/statics/tishou-shequ-more.gif) no-repeat 100% 1px;
+            text-decoration: none;
+            width: 45px;
+            height: 17px;
+            top: 20px;
+            right: 15px;
+        }
+    </style>
+</head>
+<body>
+<div class="fansContent">
+    <a class="headPost" href="" id="fansContent_type1" target="_blank">
+        <img src="">
+        <div class="postContent">
+            <h2 class="postTitle"></h2>
+            <div class="postDetail"></div>
+        </div>
+    </a>
+
+    <div>
+        <div class="activity fansItem">
+            <h2 class="itemTitle">活动</h2>
+            <a class="itemContent" href="" id="fansContent_type2" target="_blank">
+                <h2 class="postTitle"></h2>
+                <div class="postDetail"></div>
+            </a>
+        </div>
+        <div class="hotPost fansItem">
+            <h2 class="itemTitle">热帖</h2>
+            <a class="itemContent" href="" id="fansContent_type3" target="_blank">
+                <h2 class="postTitle"></h2>
+                <div class="postDetail"></div>
+            </a>
+        </div>
+        <div class="essencePost fansItem">
+            <h2 class="itemTitle">精华</h2>
+            <a class="itemContent" href="" id="fansContent_type4" target="_blank">
+                <h2 class="postTitle"></h2>
+                <div class="postDetail"></div>
+            </a>
+        </div>
+        <div class="hotCircle fansItem">
+            <h2 class="itemTitle">热门<br>圈子</h2>
+            <div class="itemContent" id="fansContent_type5">
+
+                <a href="http://sports.qq.com/fans/" target="_parent" class="moreCircle">更多</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript" src="http://mat1.gtimg.com/sports/sportAppWeb/tishou/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        ;$(function () {
+            var setItemContent = function(data){
+                var item = $('#fansContent_type' + data.type);
+                if (data.type === 5) { //热门圈子
+                    var circle = data.info;
+                    for (var i = 0; i < circle.length; i++) {
+                        var html = '<a href="' + circle[i].url + '" title="' + (circle[i].title ? circle[i].title : '') + '" class="teamIcon" target="_blank"><img src="' + circle[i].image + '"></a>';
+                        item.append(html);
+                    }
+                    return;
+                }
+                //焦点、活动、热帖、精华
+                if(data.type === 1) {   //焦点区标题长度限制
+                    var type1Title = data.title;
+                    data.title = type1Title.length > 20 ? type1Title.slice(0, 20) + '...' : type1Title;
+                }
+                item.find('.postTitle').html(data.title);
+                item.attr('href', data.url);
+                item.find('.postDetail').html(data.content);
+                if (data.image) { //焦点图
+                    item.find('img').attr('src', data.image);
+                }
+            };
+            //列表添加悬浮样式
+            $(".activity,.hotPost,.essencePost").mouseenter(function () {
+                $(this).addClass('current');
+            }).mouseleave(function () {
+                $(this).removeClass('current');
+            });
+
+            // $.ajax({
+            //     url: 'http://web.sportsshequ.qq.com/tabHot/index',
+            //     dataType: "jsonp",
+            //     success: function (json) {
+            //         if (json.code === "0") {
+            //             var data = json.data.list;
+            //             for (var i = 0; i < data.length; i++) {
+            //                 setItemContent(data[i]);
+            //             }
+            //         }
+            //     }
+            // });
+
+            window.xxx = function (data) {alert(typeof data);}
+            try {
+                var _script = document.createElement('script');
+                _script.src = 'http://web.sportsshequ.qq.com/tabHot/index?callback=xxx';
+                document.getElementsByTagName('head')[0].appendChild(_script);
+            } catch (e) {
+                var msg = '';
+                for (var key in e) {
+                    msg += key + ':' + e[key] + '\n';
+                }
+                alert(msg);
+            }
+        });
+    </script>
+</body>
+</html>

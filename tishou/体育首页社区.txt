@@ -1,0 +1,18 @@
+﻿测试首页    shequ_test.htm
+看比赛整体  kbsweb/kbswebtest/kbs_csf_test.htm
+社区测试    kbsweb/kbswebtest/tishou_shequ.htm
+
+
+http://img1.gtimg.com/sports/pics/hv1/9/131/1912/124361214.png
+http://img1.gtimg.com/sports/pics/hv1/10/131/1912/124361215.png
+http://img1.gtimg.com/sports/pics/hv1/11/131/1912/124361216.png
+
+
+
+http://img1.gtimg.com/sports/pics/hv1/69/222/1913/124449504.png
+http://img1.gtimg.com/sports/pics/hv1/70/222/1913/124449505.png
+
+http://img1.gtimg.com/sports/pics/hv1/191/241/1913/124454471.png
+
+看比赛、社区tab图
+http://img1.gtimg.com/sports/pics/hv1/10/247/1913/124455820.png

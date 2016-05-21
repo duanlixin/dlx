@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+*{padding: 0;margin: 0;font-family: '微软雅黑';}
+.fansContent{
+	width: 320px;
+	height: 343px;
+	background: url(http://img1.gtimg.com/sports/pics/hv1/9/131/1912/124361214.png) no-repeat;
+	overflow: hidden;
+}
+.fansContent a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+.fansContent .headPost{
+	height: 85px;
+	border-top: 1px solid #018DEF;
+	border-bottom: 1px solid #018DEF;
+	background: url(http://img1.gtimg.com/sports/pics/hv1/11/131/1912/124361216.png);
+	padding: 8px 0 9px 10px;
+}
+.fansContent .headPost img{
+	float: left;
+	width: 110px;
+	height: 85px;
+}
+.fansContent .postContent{
+	height: 85px;
+             float: right;
+             width: 164px;
+	padding: 0 15px;
+}
+.fansContent .postContent .postTitle{
+	font-size: 14px;
+	line-height: 20px;
+	padding:12px 0 10px;
+}
+.fansContent .postContent .postDetail, .fansContent .itemContent div{
+             width: 164px;
+	font-size: 9px;
+	color: #c4c4c4;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+ .fansContent .itemContent div {
+             width: 228px;
+}
+.fansContent .fansItem{
+	height: 58px;
+	border-bottom: 1px solid #022848;
+}
+.fansContent .fansItem + .fansItem{
+	border-top: 1px solid #01437D;
+}
+.fansContent .itemTitle{
+	width: 50px;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	font-size: 12px;
+	background: #013665;
+	border-left: 2px solid #D33557;
+	float: left;
+	color: #fff;
+}
+.fansContent .itemContent{
+	margin-left: 52px;
+	height: 48px;
+	padding: 10px 18px 0;
+	position: relative;
+}
+.fansContent .itemContent h2{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 6px;
+	
+}
+.fansContent .hotCircle .itemTitle{
+	line-height: 1.3em;
+	padding:14px 0;
+	height: auto; 
+}
+.fansContent .current{
+ 	background: rgba(3, 71, 128, 0.8);
+ 	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC034780', endColorstr='#CC034780');
+}
+:root .fansContent .current{
+	filter:none;  
+}
+.fansContent .current .itemTitle{
+	border-left-color:#FF5579; 
+	background: #034982;
+}
+.fansContent .hotCircle .itemContent .teamIcon{
+	background: #fff;
+	display: block;
+	float: left;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin: 4px 18px 0 0;
+}
+.fansContent .hotCircle .itemContent img{	
+	width: 30px;
+	height: 30px;
+	border:none;
+}
+.fansContent .moreCircle{
+	position: absolute;
+	font-size: 9px;
+	color: #fff;
+	background: url(http://img1.gtimg.com/sports/pics/hv1/10/131/1912/124361215.png) no-repeat 100% 50%;
+    _background: url(http://mat1.gtimg.com/sports/kbsweb/statics/tishou-shequ-more.gif) no-repeat 100% 50%;
+	text-decoration: none;
+	width: 45px;
+	line-height: 18px;
+	top: 20px;
+	right: 15px;
+}
+</style>
+<script type="text/javascript" src="jquery-1.11.3.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$.ajax({
+            url: 'http://web.sportsshequ.qq.com/tabHot/index',
+            dataType: "jsonp",
+            jsonpCallback: "fansTabCallback",
+            success: function (data) {
+            	console.log(data);
+            }    
+        });
+	});
+</script>
+</head>
+<body>
+<div class="fansContent">
+	<a class="headPost" href="">
+		<img src="Thompson.jpg">
+		<div class="postContent">
+			<h2 class="postTitle">汤普森的合同对明年莫兹戈夫的续约意味着？</h2>
+			<div class="postDetail">麦克基德吉尔克里斯特麦克基德吉尔克里斯特麦克基德吉尔克里斯特</div>
+		</div>
+	</a>
+	<div>
+		<div class="activity fansItem">
+			<h2 class="itemTitle">活动</h2>
+			<a class="itemContent" href="">
+				<h2>不会投篮的设计师不是好科密</h2>
+				<div>雅虎来源：麦克基德吉尔克里斯特雅虎来源：麦克基德吉尔克里斯特</div>
+			</a>
+		</div>
+		<div class="hotPost fansItem current">
+			<h2 class="itemTitle">热帖</h2>
+			<a class="itemContent" href="">
+				<h2>不会投篮的设计师不是好科密</h2>
+				<div>雅虎来源：麦克基德吉尔克里斯特雅虎来源：麦克基德吉尔克里斯特</div>
+			</a>
+		</div>
+		<div class="essencePost fansItem">
+			<h2 class="itemTitle">精华</h2>
+			<a class="itemContent" href="">
+				<h2>不会投篮的设计师不是好科密</h2>
+				<div>雅虎来源：麦克基德吉尔克里斯特雅虎来源：麦克基德吉尔克里斯特</div>
+			</a>
+		</div>
+		<div class="hotCircle fansItem">
+			<h2 class="itemTitle">热门<br>圈子</h2>
+			<div class="itemContent">
+				<a href="" class="teamIcon"><img src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_2_13.png?v=2"></a>
+				<a href="" class="teamIcon"><img src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_2_5.png?v=2"></a>
+				<a href="" class="teamIcon"><img src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_2_3.png?v=2"></a>
+				<a href="" class="teamIcon"><img src="http://f.seals.qq.com/filestore/10006/da/64/87/0/sportlogo/team_2_9.png?v=2"></a>
+				<a href="" class="moreCircle">更多</a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
