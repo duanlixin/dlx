@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style>
+        svg.class1 {
+            position: relative;
+            top: 100px;
+            left: 200px;
+        }
+
+        svg.class2 {
+            position: relative;
+            top: 200px;
+            left: 200px;
+        }
+        svg.class3 {
+            position: relative;
+            top: 300px;
+            left: 200px;
+
+        } 
+    </style>
+</head>
+<body>
+<svg id="test" class="class1" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+</svg>
+
+<svg id="testchat" style="`display: none;" class="class2"  width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- 空心圆圈 固定 -->
+    <circle cx="4" cy="28" r="3" stroke="red" stroke-width="2" fill="#fff"/>
+
+    <!-- 斜线 固定 -->
+    <line x1="4" y1="26" x2="24" y2="4" style="stroke:red;stroke-width:2"/>
+
+    <!-- 横线 x2变量 x -->
+    <line x1="24" y1="4" x2="150" y2="4" style="stroke:red;stroke-width:2"/>
+
+    <!-- 实心圆圈 cx变量 x + 2 -->
+    <circle cx="152" cy="4" r="3" stroke="red" stroke-width="2" fill="red"/>
+
+    <!-- 实心圆圈 cx变量 x - 10 -->
+    <circle cx="140" cy="40" r="3" stroke="red" stroke-width="2" fill="red"/>
+
+    <!-- 横线 x1变量 x - 10 + 2  x2变量 x - 10 + 40 -->
+    <line x1="142" y1="40" x2="180" y2="40" style="stroke:red;stroke-width:2"/>
+
+    <!-- 7. 斜线 x1变量 x + 30 -->
+    <line x1="180" y1="40" x2="200" y2="22" style="stroke:red;stroke-width:2"/>
+
+    <!-- 8.斜线 x1变量 x + 30 + 20 + 2  x变量 x + 30 + 20 + 20 + 2 -->
+    <line x1="202" y1="20" x2="222" y2="4" style="stroke:red;stroke-width:2"/>
+
+    <!-- 9. 横线 x1变量 x + 30 + 20 + 20 + 2 x2变量  x + 30 + 20 + 20 + 2 + x -->
+    <line x1="222" y1="4" x2="328" y2="4" style="stroke:red;stroke-width:2"/>
+
+    <!-- 10.实心圆圈 x1变量 x + 30 + 20 + 20 + 2 + x -->
+    <circle cx="328" cy="4" r="3" stroke="red" stroke-width="2" fill="red"/>
+
+    <!-- 11.实心圆圈 cx变量 x + 30 + 20 + 20 + x - 10 -->
+    <circle cx="310" cy="40" r="3" stroke="red" stroke-width="2" fill="red"/>
+
+    <!-- 12.横线 x1变量  x + 30 + 20 + 20 + x - 10  x2  x + 30 + 20 + 20 + x - 10 + 40 -->
+    <line x1="310" y1="40" x2="340" y2="40" style="stroke:red;stroke-width:2"/>
+
+    <!-- 13.斜线 x1变量 x + 30 + 20 + 20 + x - 10 + 40  x2变量 x + 30 + 20 + 20 + x - 10 + 40 + 20 -->
+    <line x1="340" y1="40" x2="360" y2="22" style="stroke:red;stroke-width:2"/>
+
+    <!-- 14.空心圆圈 c2变量 x + 30 + 20 + 20 + x - 10 + 40 + 20-->
+    <circle cx="360" cy="22" r="3" stroke="red" stroke-width="2" fill="#fff"/>
+</svg>
+
+<svg class="class3"  width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- 空心圆圈 固定 -->
+    <circle cx="4" cy="28" r="3" stroke="red" stroke-width="2" fill="#fff"/>
+
+    <!-- 斜线 固定 -->
+    <line x1="4" y1="26" x2="24" y2="4" style="stroke:red;stroke-width:2"/>
+
+    <!-- 横线 x2变量 x -->
+    <line x1="24" y1="4" x2="150" y2="4" style="stroke:red;stroke-width:2"/>
+
+    <!-- 实心圆圈 cx变量 x + 2 -->
+    <circle cx="152" cy="4" r="3" stroke="red" stroke-width="2" fill="red"/>
+
+    <!-- 实心圆圈 cx变量 x - 10 -->
+    <circle cx="140" cy="40" r="3" stroke="red" stroke-width="2" fill="red"/>
+
+    <!-- 横线 x1变量 x - 10 + 2  x2变量 x - 10 + 40 -->
+    <line x1="142" y1="40" x2="180" y2="40" style="stroke:red;stroke-width:2"/>
+
+    <!-- 7. 斜线 x1变量 x + 30 -->
+    <line x1="180" y1="40" x2="200" y2="22" style="stroke:red;stroke-width:2"/>
+
+    <!-- 8.斜线 x1变量 x + 30 + 20 + 2  x变量 x + 30 + 20 + 20 + 2 -->
+    <line x1="202" y1="20" x2="222" y2="4" style="stroke:red;stroke-width:2"/>
+
+    <!-- 9. 横线 x1变量 x + 30 + 20 + 20 + 2 x2变量  x + 30 + 20 + 20 + 2 + x -->
+    <line x1="222" y1="4" x2="328" y2="4" style="stroke:red;stroke-width:2"/>
+
+    <!-- 10.实心圆圈 x1变量 x + 30 + 20 + 20 + 2 + x -->
+    <circle cx="328" cy="4" r="3" stroke="red" stroke-width="2" fill="red"/>
+
+    <!-- 11.实心圆圈 cx变量 x + 30 + 20 + 20 + x - 10 -->
+    <circle cx="310" cy="40" r="3" stroke="red" stroke-width="2" fill="red"/>
+
+    <!-- 12.横线 x1变量  x + 30 + 20 + 20 + x - 10  x2  x + 30 + 20 + 20 + x - 10 + 40 -->
+    <line x1="310" y1="40" x2="340" y2="40" style="stroke:red;stroke-width:2"/>
+
+    <!-- 13.斜线 x1变量 x + 30 + 20 + 20 + x - 10 + 40  x2变量 x + 30 + 20 + 20 + x - 10 + 40 + 20 -->
+    <line x1="340" y1="40" x2="360" y2="22" style="stroke:red;stroke-width:2"/>
+
+    <!-- 14.空心圆圈 c2变量 x + 30 + 20 + 20 + x - 10 + 40 + 20-->
+    <circle cx="360" cy="22" r="3" stroke="red" stroke-width="2" fill="#fff"/>
+</svg>
+<input id="btn" type="button" onclick="handlClick()" value="按钮" count=0 />
+<br/>
+<br/>
+<div id="layer" style="display: none"><span id="timer">3</span>秒</div>
+<script type="text/javascript">
+        function renderLine(data) {
+            return '<line x1="' + data.x1 + '" y1="' + data.y1 +'" x2="'+ data.x2 + '" y2="' + data.y2 +'" style="stroke:' + data.stroke+ ';stroke-width:2"/>';
+        }
+
+        // console.log(renderLine({
+        //     x1: 1,
+        //     y1: 2,
+        //     x2: 3,
+        //     y2: 4,
+        //     stroke: 'red'
+        // }))
+
+        function renderCircle(data) {
+            // <circle cx="4" cy="28" r="3" stroke="red" stroke-width="2" fill="#fff"/> // 空心
+            // <circle cx="4" cy="28" r="3" stroke="red" stroke-width="2" fill="red"/>  // 实心
+            return '<circle cx="' + data.cx + '" cy="' + data.cy +'" r="'+ data.r + '" style="stroke-width:2;stroke:' + data.stroke + ';fill:' + data.fill+ '"/>';
+        }
+
+        // console.log(renderCircle({
+        //     cx: 1,
+        //     cy: 2,
+        //     r: 3,
+        //     y2: 4,
+        //     fill: 'red',
+        //     stroke: 'red'
+        // }));
+
+        var circleBorderWidth = 2;
+        var containerHeight = 40;
+        var w1 = 150; // 横线长度
+        var w2 = 30; // 底部横线长度
+        var w3 = 10; // 交错偏移
+
+        var e1_cx = circleBorderWidth * 2;
+        var e1_cy = containerHeight / 2 + circleBorderWidth * 2 * 2;
+        var e1_r = circleBorderWidth + 1;
+
+        var e2_x1 = e1_cx;
+        var e2_y1 = containerHeight / 2 + circleBorderWidth * 2 + circleBorderWidth;
+        var e2_x2 = containerHeight / 2 + circleBorderWidth * 2;
+        var e2_y2 = circleBorderWidth * 2;
+
+        var e3_x1 = e2_x2;
+        var e3_y1 = e2_y2; 
+        var e3_x2 = e2_x2 + w1;
+        var e3_y2 = e2_y2;
+
+        var e4_cx = e3_x2 + circleBorderWidth;
+        var e4_cy = e3_y2
+        var e4_r = e1_r;
+
+        var e5_cx = e4_cx - w3;
+        var e5_cy = containerHeight
+        var e5_r = e1_r;
+
+        var e6_x1 = e5_cx; 
+        var e6_y1 = e5_cy; 
+        var e6_x2 = e5_cx + w2;
+        var e6_y2 = e5_cy; 
+
+        var e7_x1 = e6_x2; 
+        var e7_y1 = e6_y2; 
+        var e7_x2 = e6_x2 + containerHeight / 2;
+        var e7_y2 = containerHeight / 2 + circleBorderWidth;
+
+        var e8_x1 = e7_x2 + circleBorderWidth; 
+        var e8_y1 = containerHeight / 2; 
+        var e8_x2 = e7_x2 + circleBorderWidth + containerHeight / 2;
+        var e8_y2 = circleBorderWidth * 2;
+
+        var e9_x1 = e8_x2;
+        var e9_y1 = e8_y2;
+        var e9_x2 = e8_x2 + w1;
+        var e9_y2 = e8_y2;
+
+        var e10_cx = e9_x1 + w1;
+        var e10_cy = e9_y2
+        var e10_r = e1_r;
+
+        var e11_cx = e10_cx - w3;
+        var e11_cy = containerHeight;
+        var e11_r = e1_r;
+
+        var e12_x1 = e11_cx; 
+        var e12_y1 = e11_cy; 
+        var e12_x2 = e12_x1 + w2;
+        var e12_y2 = containerHeight; 
+
+        var e13_x1 = e12_x2; // 
+        var e13_y1 = e12_y2; 
+        var e13_x2 = e12_x2 + containerHeight / 2;
+        var e13_y2 = containerHeight / 2 + circleBorderWidth;
+
+        var e14_cx = e13_x2;
+        var e14_cy = e13_y2;
+        var e14_r = e1_r;
+
+        var arr = [
+            {   type: 'circle',
+                cx: e1_cx,
+                cy: e1_cy,
+                r: e1_r,
+                fill: '#fff',
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'line',
+                x1: e2_x1,
+                y1: e2_y1,
+                x2: e2_x2,
+                y2: e2_y2,
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'line',
+                x1: e3_x1,
+                y1: e3_y1,
+                x2: e3_x2,
+                y2: e3_y2,
+                stroke: '#00f6ff'
+            },
+            {   type: 'circle',
+                cx: e4_cx,
+                cy: e4_cy,
+                r: e1_r,
+                fill: '#00f6ff',
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'circle',
+                cx: e5_cx,
+                cy: e5_cy,
+                r: e1_r,
+                fill: '#00f6ff',
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'line',
+                x1: e6_x1,
+                y1: e6_y1,
+                x2: e6_x2,
+                y2: e6_y2,
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'line',
+                x1: e7_x1,
+                y1: e7_y1,
+                x2: e7_x2,
+                y2: e7_y2,
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'line',
+                x1: e8_x1,
+                y1: e8_y1,
+                x2: e8_x2,
+                y2: e8_y2,
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'line',
+                x1: e9_x1,
+                y1: e9_y1,
+                x2: e9_x2,
+                y2: e9_y2,
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'circle',
+                cx: e10_cx,
+                cy: e10_cy,
+                r: e1_r,
+                fill: '#0a5e70',
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'circle',
+                cx: e11_cx,
+                cy: e11_cy,
+                r: e1_r,
+                fill: '#0a5e70',
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'line',
+                x1: e12_x1,
+                y1: e12_y1,
+                x2: e12_x2,
+                y2: e12_y2,
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'line',
+                x1: e13_x1,
+                y1: e13_y1,
+                x2: e13_x2,
+                y2: e13_y2,
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'circle',
+                cx: e14_cx,
+                cy: e14_cy,
+                r: e1_r,
+                fill: '#fff',
+                stroke: '#0a5e70'
+            }
+        ];
+
+        var arrchat = [
+            {   type: 'circle',
+                cx: e1_cx,
+                cy: e1_cy,
+                r: e1_r,
+                fill: '#fff',
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'line',
+                x1: e2_x1,
+                y1: e2_y1,
+                x2: e2_x2,
+                y2: e2_y2,
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'line',
+                x1: e3_x1,
+                y1: e3_y1,
+                x2: e3_x2,
+                y2: e3_y2,
+                stroke: '#0a5e70'
+            },
+            {   type: 'circle',
+                cx: e4_cx,
+                cy: e4_cy,
+                r: e1_r,
+                fill: '#0a5e70',
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'circle',
+                cx: e5_cx,
+                cy: e5_cy,
+                r: e1_r,
+                fill: '#0a5e70',
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'line',
+                x1: e6_x1,
+                y1: e6_y1,
+                x2: e6_x2,
+                y2: e6_y2,
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'line',
+                x1: e7_x1,
+                y1: e7_y1,
+                x2: e7_x2,
+                y2: e7_y2,
+                stroke: '#0a5e70'
+            },
+            {
+                type: 'line',
+                x1: e8_x1,
+                y1: e8_y1,
+                x2: e8_x2,
+                y2: e8_y2,
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'line',
+                x1: e9_x1,
+                y1: e9_y1,
+                x2: e9_x2,
+                y2: e9_y2,
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'circle',
+                cx: e10_cx,
+                cy: e10_cy,
+                r: e1_r,
+                fill: '#00f6ff',
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'circle',
+                cx: e11_cx,
+                cy: e11_cy,
+                r: e1_r,
+                fill: '#00f6ff',
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'line',
+                x1: e12_x1,
+                y1: e12_y1,
+                x2: e12_x2,
+                y2: e12_y2,
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'line',
+                x1: e13_x1,
+                y1: e13_y1,
+                x2: e13_x2,
+                y2: e13_y2,
+                stroke: '#00f6ff'
+            },
+            {
+                type: 'circle',
+                cx: e14_cx,
+                cy: e14_cy,
+                r: e1_r,
+                fill: '#fff',
+                stroke: '#00f6ff'
+            }
+        ];
+
+        var html = [];
+
+        for(var i=0; i< arr.length; i++ ) {
+            var type = arr[i].type;
+            switch (type) {
+
+                case 'circle':
+                    html.push(renderCircle(arr[i]))
+                    break;
+                case 'line':
+                html.push(renderLine(arr[i]))
+                    break;
+            }
+        }
+        var htmlchat = [];
+
+        for(var i=0; i< arrchat.length; i++ ) {
+            var type = arrchat[i].type;
+            switch (type) {
+
+                case 'circle':
+                    htmlchat.push(renderCircle(arrchat[i]))
+                    break;
+                case 'line':
+                htmlchat.push(renderLine(arrchat[i]))
+                    break;
+            }
+        }
+
+
+        document.querySelector('#test').innerHTML = html.join('');
+        document.querySelector('#testchat').innerHTML = htmlchat.join('');
+
+    var TIME_DISPEAR = 3;
+    var FREQUENCY_CLICK = 5;
+    var time = TIME_DISPEAR;
+    var count = 0;
+    var timer = document.querySelector('#timer');
+    var layer = document.querySelector('#layer');
+    var btn = document.querySelector('#btn');
+
+    var timeout = null;
+
+    var send = function (count, last) {
+
+        if (last === 'last') {
+            console.log('last', count)
+        } else if (count === 1) {
+            console.log('first', count);
+        } else if ((count - 1 ) % FREQUENCY_CLICK === 0) {
+            console.log('five', count);
+        } 
+    };
+
+    var startTimer = function () {
+        timeout = setTimeout(function () {
+            // console.log(time);
+            if (time === 0) {
+                stopTimer();
+                send(count, 'last');
+                btn.setAttribute('count', 0);
+                count = 0;
+                return;
+            }
+
+            timeElapse();
+            startTimer();
+        } ,1000);
+    };
+
+    var timeElapse = function () {
+        timer.innerHTML = time--;
+    };
+
+    var stopTimer = function () {
+        clearTimeout(timeout);
+        time = TIME_DISPEAR;
+        hideLayer();
+    };
+
+    var showLayer = function () {
+        layer.style.display = 'block';
+        timer.innerHTML = time--;
+    };
+
+    var hideLayer = function () {
+        layer.style.display = 'none';
+        timer.innerHTML = TIME_DISPEAR;
+    };
+
+    var handlClick = function () {
+        count++;
+        send(count);
+        btn.setAttribute('count', count);
+        stopTimer();
+        showLayer();
+        startTimer();
+    };
+
+
+</script>
+</body>
+</html>
