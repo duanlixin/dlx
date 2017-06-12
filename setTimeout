@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>debounce</title>
+</head>
+<body>
+    <a id="btn" href="javascript:void(0);">有新消息，点击查看</a>
+    <script>
+    var toastTimeout = null,
+        checkVipSig = null,
+        TIMEOUT = 5,
+        timerCounter = 1,
+        INTERVAL = 1,
+        SECOND = 1000;
+
+    var bool = false;
+
+    var dosomeThing = function () {
+        if (bool) {
+            console.log('toast消失 检查成功')
+            clearTimeout(toastTimeout);
+            clearInterval(checkVipSig);
+        }
+    };
+
+    toastTimeout = setTimeout(function() {
+        console.log('toast消失 超时')
+    }, TIMEOUT * SECOND);
+
+    checkVipSig = setInterval(function() {
+      // 5秒后，清除轮循
+      console.log(timerCounter)
+      if (timerCounter === TIMEOUT) {
+            console.log('停止轮循检查')
+            clearInterval(checkVipSig);
+      }
+      timerCounter++;
+
+      dosomeThing();
+
+    }, INTERVAL * SECOND);
+    </script>
+</body>
+</html>
